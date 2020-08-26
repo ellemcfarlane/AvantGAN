@@ -1,7 +1,13 @@
 # AvantGAN
-This is a WGAN-GP that attempts to create avant-garde fashion; currently trained on pieces by Rei Kawakubo that I hand-traced in Adobe Draw.
+This is a WGAN-GP that attempts to create avant-garde fashion; currently trained on pieces by Rei Kawakubo that I hand-traced in Adobe Fresco.
 
 To my knowledge, while GANs that produce simple articles of clothing exist, no one has attempted to make one that creates artistic avant-garde fashion.
+
+![Alt_text](sample_data/drawing_sample.png)
+Hand-traced unaugmented drawings.
+
+![Alt_text](sample_data/source_sample.png)
+Some of Rei Kawakubo's avant-garde outfits.
 
 ## Latest Architecture
 Deep convolutional GAN with WGAN-GP loss implementation. Note: Each convolution, in both networks, is followed by batch normalization and a leaky ReLU function, except for the last layer, which uses a tanh function. 
@@ -20,6 +26,9 @@ Deep convolutional GAN with WGAN-GP loss implementation. Note: Each convolution,
 * 50x50x128 convolution
 * 25x25x256 convolution
 * 1x1x1 output (generated- vs real-image decision)
+
+### Dataset
+About 10,000 mostly augmented images of size 100x100x3. Source images scraped from Google and all outfits are by designer Rei Kawakubo. Traced source images in Adobe Fresco to reduce noise, simplify the images and emphasize important features.
 
 ### Improvements
 Working on significantly increasing dataset and removing some unnecessary augmented images to have less-noisy data.
