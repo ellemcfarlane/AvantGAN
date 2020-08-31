@@ -4,10 +4,10 @@ This is a WGAN-GP that attempts to create avant-garde fashion; currently trained
 To my knowledge, while GANs that produce simple articles of clothing exist, no one has attempted to make one that creates artistic avant-garde fashion.
 
 ![Alt_text](sample_data/drawing_sample.png)
-Hand-traced unaugmented drawings.
+Some hand-traced unaugmented drawings used as training images.
 
 ![Alt_text](sample_data/source_sample.png)
-Some of Rei Kawakubo's avant-garde outfits.
+Some of Rei Kawakubo's avant-garde outfits the above data is based off of.
 
 ## Usage
 To train the GAN with original config:
