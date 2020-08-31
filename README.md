@@ -9,6 +9,12 @@ Hand-traced unaugmented drawings.
 ![Alt_text](sample_data/source_sample.png)
 Some of Rei Kawakubo's avant-garde outfits.
 
+## Usage
+To train the GAN with original config:
+* Open AvantGAN.ipynb in google collab
+* Upload avantgarde_drawings.zip to workspace
+* Run all cells
+
 ## Latest Architecture
 Deep convolutional GAN with WGAN-GP loss implementation. Note: Each convolution, in both networks, is followed by batch normalization and a leaky ReLU function, except for the last layer, which uses a tanh function. 
 
@@ -27,11 +33,11 @@ Deep convolutional GAN with WGAN-GP loss implementation. Note: Each convolution,
 * 25x25x256 convolution
 * 1x1x1 output (generated- vs real-image decision)
 
-### Dataset
+## Dataset
 About 10,000 mostly augmented images of size 100x100x3. Source images scraped from Google and all outfits are by designer Rei Kawakubo. Traced source images in Adobe Fresco to reduce noise, simplify the images and emphasize important features.
 
-### Improvements
+## Improvements
 Working on significantly increasing dataset and removing some unnecessary augmented images to have less-noisy data.
 
 ### Acknowledgements
-Used as a guide Python Machine Learning by Sebastian Raschka and Vahid Mirjalili
+Used Python Machine Learning by Sebastian Raschka and Vahid Mirjalili as a guide
