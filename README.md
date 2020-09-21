@@ -1,7 +1,7 @@
 # AvantGAN
 This is a WGAN-GP that attempts to create avant-garde fashion; currently trained on pieces by Rei Kawakubo that I hand-traced in Adobe Fresco.
 
-To my knowledge, while GANs that produce simple articles of clothing exist, no one has attempted to make one that creates artistic avant-garde fashion.
+To my knowledge, no one has attempted to make a GAN that creates artistic avant-garde fashion.
 
 ![Alt_text](sample_data/drawing_sample.png)
 Some hand-traced unaugmented drawings used as training images.
