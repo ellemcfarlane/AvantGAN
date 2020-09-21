@@ -1,0 +1,30 @@
+{
+  "base": {
+    "conv": {
+      "kernel_size": 5,
+      "strides": [1,1],
+      "padding": "same",
+      "n_filters": 64
+    }
+  },
+  "hidden": {
+    "kernel_size": [5,5],
+    "strides": [2,2],
+    "padding": "same",
+    "dropout_rate": 0.5
+  },
+  "output": {
+    "n_filters": 1,
+    "padding": "valid"
+  },
+  "lambda_gp": 10,
+  "img_size": [100, 100, 3],
+  "z_size": 10,
+  "n_filters": 128,
+  "n_blocks": 2,
+  "optimizer": {
+    "learning_rate": 0.0001,
+    "beta_1": 0,
+    "beta_2": 0.9
+  }
+}

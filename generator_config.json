@@ -1,0 +1,35 @@
+{
+  "base": {
+    "dense": {
+      "use_bias": "False"
+      },
+    "tconv": {
+      "kernel_size": [5, 5],
+      "strides": [1,1],
+      "padding": "same",
+      "use_bias": "False"
+    }
+  },
+  "hidden": {
+    "kernel_size": [5,5],
+    "strides": [2,2],
+    "padding": "same",
+    "use_bias": "False"
+  },
+  "output": {
+    "activation": "tanh",
+	  "kernel_size": [5, 5],
+    "strides": [1,1],
+    "padding": "same",
+    "use_bias": "False"
+  },
+  "img_size": [100, 100, 3],
+  "z_size": 10,
+  "n_filters": 128,
+  "n_blocks": 2,
+  "optimizer": {
+    "learning_rate": 0.0001,
+    "beta_1": 0,
+    "beta_2": 0.9
+  }
+}

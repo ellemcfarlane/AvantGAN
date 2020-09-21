@@ -13,6 +13,7 @@ Some of Rei Kawakubo's avant-garde outfits the above data is based off of.
 To train the GAN with original config:
 * Open AvantGAN.ipynb in google collab
 * Upload avantgarde_drawings.zip to workspace
+* Upload all config.json files to workspace
 * Run all cells
 
 ## Latest Architecture
