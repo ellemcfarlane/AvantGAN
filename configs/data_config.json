@@ -1,1 +1,8 @@
-config file
+{
+    "image_dims": [100, 100],
+    "n_pnts": 9930,
+    "batch_size": 32,
+    "z_size": 10,
+    "z_vec_mode": "normal",
+    "data_dir": "avantgarde_drawings"
+}
