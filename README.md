@@ -15,6 +15,7 @@ A tiny tiny dataset of 27 avant-garde fashion pieces by Rei Kawakubo hand-traced
 ## Results
 <TODO: wandb results>
 <TODO: hand-picked results>
+<iframe width="560" height="315" src="https://wandb.ai/elles/avantGAN/reports/DCGAN--Vmlldzo4Mzc3MDAx?accessToken=yt5dxpxwpfai2kpalefjr1apv4xl01lve45djpwqg5zds17smqm2lkg50prtv2g6" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Usage
 1. Runs in Kaggle (sorry!) with 1 GPU but can be run locally with minimal changes
