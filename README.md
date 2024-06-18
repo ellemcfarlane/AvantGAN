@@ -22,14 +22,13 @@ A tiny tiny dataset of 27 avant-garde fashion pieces by Rei Kawakubo hand-traced
 [![My Screenshot](images/wandb_report_screenshot.png)](https://wandb.ai/elles/avantGAN/reports/DCGAN--Vmlldzo4Mzc3MDAx)
 
 ## Usage
-1. Runs in Kaggle (sorry!) with 1 GPU but can be run locally with minimal changes
+1. Run train_avantGAN.ipynb in Kaggle (sorry!) with 1 GPU or run locally with minimal changes
 2. Change training params and wandb info in class Config
 
 ## Architecture/Training Setup
 Deep convolutional GAN with basic binary cross entropy loss for the discriminator with following changes:
-1. Added leaky ReLU to generator, too
+1. Leaky ReLU to generator
 2. AdamW optimizer for both generator and discriminator
-Note: Each convolution, in both networks, is followed by batch normalization and a leaky ReLU function, except for the last layer, which uses a tanh function. 
 3. Adaptive Discriminator Augmentation (ADA) per https://arxiv.org/abs/2006.06676 (Karras et al. 2020) for small datasets  
     3.1. Augmentations to the real images as per ADA
 4. Basic label smoothing determined by SMOOTH in config
@@ -39,8 +38,8 @@ Note: Each convolution, in both networks, is followed by batch normalization and
 <TODO: Stylegan3 results>  
 
 ## Future Improvements
-* increasing dataset size manually and via diffusion generation
-* fine-tuning StyleGAN3
+* increase dataset size manually and via diffusion generation
+* fine-tune StyleGAN3
 * update loss function to e.g. wasserstein loss to decrease mode collapse and improve training stability
 
 ### Acknowledgements
