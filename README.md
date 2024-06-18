@@ -20,6 +20,10 @@ Without ADA: model simply overfits to the small dataset and reproduces nearly th
     <img src="images/cherry_picked_creative.png" alt="Alt_text" width="500" />
 </div>
 
+<p align="center">
+    <img src="images/cherry_picked_creative.png" alt="Alt_text" width="500" />
+</p>
+
 ### Slightly more detailed results in wandb report
 [![My Screenshot](images/wandb_report_screenshot.png)](https://wandb.ai/elles/avantGAN/reports/DCGAN--Vmlldzo4Mzc3MDAx)
 
