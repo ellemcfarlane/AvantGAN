@@ -3,7 +3,7 @@ This is a DCGAN with adaptive discriminator augmentation for small datasets that
 
 To my knowledge, no one has attempted to make a GAN that creates artistic avant-garde fashion.
 
-![Alt_text](sample_data/drawing_sample_higher_res.png)
+![Alt_text](sample_data/drawing_sample.png)
 512x512 hand-traced training samples.
 
 ![Alt_text](sample_data/source_sample.png)
