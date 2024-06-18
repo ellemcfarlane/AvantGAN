@@ -6,16 +6,20 @@ To my knowledge, no one has attempted to make a GAN that creates artistic avant-
 ## Dataset
 A tiny tiny dataset of 27 avant-garde fashion pieces by Rei Kawakubo hand-traced in Adobe Fresco to reduce noise and emphasize important features. Original size: 512x512x3 but resized to 64x64x3 for training.
 
-![Alt_text](sample_data/drawing_sample.png)
+![Alt_text](images/drawing_sample.png)
 *512x512 training samples of hand-traced outfits.*
 
-![Alt_text](sample_data/source_sample.png)
+![Alt_text](images/source_sample.png)
 *Raw samples of Rei Kawakubo's avant-garde outfits.*
 
 ## Results
-<TODO: wandb results>
-<TODO: hand-picked results>
-<iframe width="560" height="315" src="https://wandb.ai/elles/avantGAN/reports/DCGAN--Vmlldzo4Mzc3MDAx?accessToken=yt5dxpxwpfai2kpalefjr1apv4xl01lve45djpwqg5zds17smqm2lkg50prtv2g6" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Cherry-picked, questionably "creative" results
+<div style="text-align: center;">
+    <img src="images/cherry_picked_creative.png" alt="Alt_text" width="700" />
+</div>
+
+### Slightly more detailed results in wandb report
+[![My Screenshot](images/wandb_report_screenshot.png)](https://wandb.ai/elles/avantGAN/reports/DCGAN--Vmlldzo4Mzc3MDAx)
 
 ## Usage
 1. Runs in Kaggle (sorry!) with 1 GPU but can be run locally with minimal changes
@@ -31,8 +35,8 @@ Note: Each convolution, in both networks, is followed by batch normalization and
 4. Basic label smoothing determined by SMOOTH in config
 
 ## Comparison to other models
-<TODO: diffusion results>
-<TODO: Stylegan3 results>
+<TODO: diffusion results>  
+<TODO: Stylegan3 results>  
 
 ## Future Improvements
 * increasing dataset size manually and via diffusion generation
