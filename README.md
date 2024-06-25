@@ -1,4 +1,21 @@
-# AvantGAN
+---
+title: AvantGAN
+emoji: 🧠
+colorFrom: blue
+colorTo: red
+tags: [generative-ai, art, fashion, avant-garde, GAN]
+---
+
+<div align="center">
+    <h1>AvantGAN</h1>
+    <div>
+    <h4 align="center">
+    <a href="https://huggingface.co/spaces/ellemac/avantGAN" target='_blank'>[HuggingFace Demo]</a> •
+    <a href="https://wandb.ai/elles/avantGAN/reports/DCGAN--Vmlldzo4Mzc3MDAx" target='_blank'>[Wandb Report]</a>
+    </h4>
+</div>
+</div>
+
 (Two) GAN variants that use adaptive discriminator augmentation (ADA) for small datasets that generates avant-garde fashion in style of Rei Kawakubo; currently trained on pieces hand-traced in Adobe Fresco. Results are more abstract/creative than realistic.
 
 To my knowledge, no one has attempted to make a GAN that creates artistic avant-garde fashion.
