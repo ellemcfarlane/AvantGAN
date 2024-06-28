@@ -43,7 +43,7 @@ Without ADA: model simply overfits to the small dataset and reproduces nearly th
         <figcaption><em>StyleGAN3 (includes ADA) trained on 128x128 images</em></figcaption>
     </figure>
 </div>
-The DCGAN clearly overfits more than the StyleGAN3, which perhaps does not overfit enough. This is a subjective analysis and should be investigated more thoroughly with metrics like FID.
+The DCGAN clearly overfits more than the StyleGAN3, which perhaps does not learn the data distribution enough. This is a subjective analysis and should be investigated more thoroughly with metrics like FID.
 
 
 ### (Click for) Slightly more detailed results in wandb report
