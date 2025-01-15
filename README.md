@@ -30,21 +30,23 @@ A tiny tiny dataset of 27 avant-garde fashion pieces by Rei Kawakubo hand-traced
 *Raw samples of Rei Kawakubo's avant-garde outfits.*
 
 ## Results
-Without ADA: model simply overfits to the small dataset and reproduces nearly the same images as the training set. The following results are therefore *with* ADA.
 
-### Cherry-picked, questionably "creative" generations
+
+### From scratch DCGAN + ADA generations (cherry-picked, questionably "creative" generations)
 <div style="display: flex; justify-content: center; width: 100%; margin: 0 auto;">
     <figure style="flex: 1; margin-right: 20px; text-align: center;">
         <img src="images/cherry_picked_creative.png" alt="Alt_text" style="width: 100%; height: auto;" />
-        <figcaption><em>From-scratch DCGAN + ADA trained on 64x64 images</em></figcaption>
-    </figure>
-    <figure style="flex: 1; text-align: center;">
-        <img src="images/stylegan3_samples.png" alt="Alt_text" style="width: 100%; height: auto;" />
-        <figcaption><em>StyleGAN3 (includes ADA) trained on 128x128 images</em></figcaption>
+        <figcaption><em>The above results are *with* ADA, trained on 64x64 images. Without ADA the model completely overfits to the small dataset and reproduces nearly the same images as the training set. </em></figcaption>
     </figure>
 </div>
-The DCGAN clearly overfits more than the StyleGAN3, which perhaps does not learn the data distribution enough. This is a subjective analysis and should be investigated more thoroughly with metrics like FID.
 
+### Finetuned StyleGAN3 generations
+<div style="display: flex; justify-content: center; width: 100%; margin: 0 auto;">
+    <figure style="flex: 1; text-align: center;">
+        <img src="images/stylegan3_samples.png" alt="Alt_text" style="width: 100%; height: auto;" />
+        <figcaption><em>StyleGAN3 (includes ADA) trained on 128x128 images. The from-scratch DCGAN clearly overfits more than the finetuned StyleGAN3. This is a subjective analysis and should be investigated more thoroughly with metrics like FID.</em></figcaption>
+    </figure>
+</div>
 
 ### (Click for) Slightly more detailed results in wandb report
 [![My Screenshot](images/wandb_report_screenshot.png)](https://wandb.ai/elles/avantGAN/reports/avantGAN--Vmlldzo4Mzc3MDAx?accessToken=yt5dxpxwpfai2kpalefjr1apv4xl01lve45djpwqg5zds17smqm2lkg50prtv2g6#dcgan-+-ada)
