@@ -47,7 +47,7 @@ The DCGAN clearly overfits more than the StyleGAN3, which perhaps does not learn
 
 
 ### (Click for) Slightly more detailed results in wandb report
-[![My Screenshot](images/wandb_report_screenshot.png)](https://wandb.ai/elles/avantGAN/reports/DCGAN--Vmlldzo4Mzc3MDAx)
+[![My Screenshot](images/wandb_report_screenshot.png)](https://wandb.ai/elles/avantGAN/reports/avantGAN--Vmlldzo4Mzc3MDAx?accessToken=yt5dxpxwpfai2kpalefjr1apv4xl01lve45djpwqg5zds17smqm2lkg50prtv2g6#dcgan-+-ada)
 
 ## Training (on Kaggle)
 ### DCGAN + ADA
